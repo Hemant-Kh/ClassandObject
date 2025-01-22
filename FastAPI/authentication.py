@@ -25,7 +25,7 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
-
+ 
 )
 
 users_db = {
@@ -84,3 +84,4 @@ def secure_data(token: str = Depends(oauth2_scheme)):
 
 
 
+ 
