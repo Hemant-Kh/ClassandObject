@@ -1,0 +1,47 @@
+h1{
+    color:red;
+    text-align: center;
+    text-decoration:line-through;
+}
+#new-body{
+    color:red;
+    background-color: aqua;
+
+}
+p.this{
+    border:2px;
+    border-color:blue;
+    border-style:dotted;
+    
+}
+table,th,td{
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    border-collapse:collapse;
+    border-radius: 10px;
+
+}
+table{
+    border-spacing:40px;
+}
+td,th:hover{
+    padding:15px
+}
+td:nth-child(even),th:nth-child(even){
+    background-color: black;
+
+}
+img{
+    z-index: -1;
+    height: 100 px;
+    width: 1000000 px;
+    position:relative;
+}
+.test{
+    overflow:scroll;
+}
+#News.p{
+    padding-left:300px;
+}
+
